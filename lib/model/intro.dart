@@ -20,6 +20,6 @@ List<Intro> introData = [
   Intro(
       title: 'Get Your Order',
       description:
-      'Business or commerce an order is a stated\nintention either spen to engage in a\ncommercial transaction specific products.',
+      'Business or and commerce an order is a stated\nintention either spen to engage in a\ncommercial transaction specific products.',
       image: 'assets/images/get-your-order.png'),
 ];
