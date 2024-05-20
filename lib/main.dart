@@ -26,7 +26,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  // This widget is the root of your application.ooooooooo
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           themeMode: ThemeMode.light,
           getPages: getPages,
           initialRoute: splash,
-          unknownRoute: getPages.first,
+          unknownRoute: getPages.first,//gvf
         );
 
       },
