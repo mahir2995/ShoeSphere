@@ -15,7 +15,7 @@ List<Intro> introData = [
   Intro(
       title: 'Make Payment',
       description:
-      'Payment is the transfer of money\nservices in exchange product or Payments\ntypically made terms agreed.',
+      'Payment issss the transfer of money\nservices in exchange product or Payments\ntypically made terms agreed.',
       image: 'assets/images/make-payment.png'),
   Intro(
       title: 'Get Your Order',
