@@ -43,8 +43,7 @@ class MyApp extends StatelessWidget {
           initialRoute: splash,
           unknownRoute: getPages.first,
         );
-        //hlwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-        //hllwwwwwwwwwwwwwwwwwwwwwwwwwwww
+
       },
     );
   }
