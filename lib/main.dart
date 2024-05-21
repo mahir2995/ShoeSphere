@@ -26,7 +26,11 @@ void main() { //gvgjvj
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+<<<<<<< HEAD
   // This widget is the root of your application.
+=======
+  // This widget is the root of your application.ooooooooohbhfhfbjhbnjnjnjn
+>>>>>>> origin/Mahir-Branch
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
