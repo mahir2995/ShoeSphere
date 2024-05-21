@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           themeMode: ThemeMode.light,
           getPages: getPages,
           initialRoute: splash,
-          unknownRoute: getPages.first,//gvffcf
+          unknownRoute: getPages.first,//gvffcnbhnj
         );
       //vgvthgvbgr
       },
