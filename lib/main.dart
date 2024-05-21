@@ -26,7 +26,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.ooooooooo
+  // This widget is the root of your application.ooooooooohbh
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
