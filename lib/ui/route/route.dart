@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:shoesphere/ui/views/auth/forget_password.dart';
 import 'package:shoesphere/ui/views/auth/login.dart';
 import 'package:shoesphere/ui/views/auth/registration.dart';
+import 'package:shoesphere/ui/views/auth/terms_conndition.dart';
 import 'package:shoesphere/ui/views/not_found.dart';
 import 'package:shoesphere/ui/views/onboarding.dart';
 import 'package:shoesphere/ui/views/splash.dart';
@@ -13,6 +14,7 @@ const String intro = '/intro';
 const String login = '/login';
 const String registration = '/registration';
 const String forgetPass = '/forgetPass';
+const String terms = '/terms';
 
 List<GetPage> getPages = [
   GetPage(
@@ -36,12 +38,18 @@ List<GetPage> getPages = [
   ),
   GetPage(
     name: registration,
-    page: () => const Registration(),
+    page: () =>  Registration(),
 
   ),
   GetPage(
     name: forgetPass,
     page: () => const ForgetPassword(),
+
+  ),
+
+  GetPage(
+    name: terms,
+    page: () => const TermCondition(),
 
   ),
 ];
