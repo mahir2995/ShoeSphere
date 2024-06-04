@@ -35,13 +35,14 @@ dependencies:
   google_fonts: ^4.0.4 # google fonts
   salomon_bottom_bar: ^3.3.2 #for bottom nav
   cupertino_icons: ^1.0.2
-  firebase_core: ^2.14.0
+  firebase_core: ^2.32.0
   firebase_auth: ^4.6.3
   get_storage: ^2.1.1
   cloud_firestore: ^4.8.1
   cached_network_image: ^3.2.3
   flutter_bkash: ^0.2.0
   intro_screen_onboarding_flutter: ^1.0.0 #intro
+
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">688242949903</string>
+    <string name="google_api_key" translatable="false">AIzaSyAs5C-_ozs9QcX7UVh9GTQJCLvz5WDxv-Y</string>
+    <string name="google_app_id" translatable="false">1:688242949903:android:d7c1fdd20b57ee3d48087a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAs5C-_ozs9QcX7UVh9GTQJCLvz5WDxv-Y</string>
+    <string name="google_storage_bucket" translatable="false">shoesphere-5019b.appspot.com</string>
+    <string name="project_id" translatable="false">shoesphere-5019b</string>
+</resources>
