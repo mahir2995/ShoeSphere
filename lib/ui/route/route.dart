@@ -43,7 +43,7 @@ List<GetPage> getPages = [
   ),
   GetPage(
     name: forgetPass,
-    page: () => const ForgetPassword(),
+    page: () =>  ForgetPassword(),
 
   ),
 

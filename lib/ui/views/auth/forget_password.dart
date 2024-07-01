@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 class ForgetPassword extends StatelessWidget {
-  const ForgetPassword({super.key});
+   ForgetPassword({super.key});
+   TextEditingController _emailControler = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+
+    );
   }
 }
