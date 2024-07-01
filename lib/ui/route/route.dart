@@ -57,7 +57,7 @@ List<GetPage> getPages = [
 
   GetPage(
     name: bottomNav,
-    page: () => const BottomNavController(),
+    page: () =>  BottomNavController(),
 
   ),
 ];
