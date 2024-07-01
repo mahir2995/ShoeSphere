@@ -1,5 +1,5 @@
 
-//import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -7,10 +7,15 @@ import 'package:get/get.dart';
 //import 'package:get_storage/get_storage.dart';
 import 'package:shoesphere/const/app_strings.dart';
 import 'package:shoesphere/ui/theme/app_theme.dart';
+import 'firebase_options.dart';
 import 'ui/route/route.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  //await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
@@ -26,7 +31,9 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+
   // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
@@ -43,7 +50,6 @@ class MyApp extends StatelessWidget {
           initialRoute: splash,
           unknownRoute: getPages.first,
         );
-    //yooooo
       },
     );
   }

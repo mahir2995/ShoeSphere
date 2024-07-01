@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "570309084060",
+    "project_id": "shoesphere-71f4d",
+    "storage_bucket": "shoesphere-71f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570309084060:android:c2f272f0bcc2e7e1f47e59",
+        "android_client_info": {
+          "package_name": "com.example.shoesphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_PSdKYLL0sd4RxEXLi9y1JO7ESkBNnh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
