@@ -86,7 +86,7 @@ class Login extends StatelessWidget {
                           'Log in',
                               () {
                             if (_formKey.currentState!.validate()) {
-                              print('Succcess');
+                             Get.toNamed(bottomNav);
                             } else {
                               print('Failed');
                             }

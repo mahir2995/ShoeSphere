@@ -1,5 +1,6 @@
 
 import 'package:get/get.dart';
+import 'package:shoesphere/ui/views/auth/bottom_nav_controller.dart';
 import 'package:shoesphere/ui/views/auth/forget_password.dart';
 import 'package:shoesphere/ui/views/auth/login.dart';
 import 'package:shoesphere/ui/views/auth/registration.dart';
@@ -15,6 +16,7 @@ const String login = '/login';
 const String registration = '/registration';
 const String forgetPass = '/forgetPass';
 const String terms = '/terms';
+const String bottomNav = '/bottomNav';
 
 List<GetPage> getPages = [
   GetPage(
@@ -50,6 +52,12 @@ List<GetPage> getPages = [
   GetPage(
     name: terms,
     page: () => const TermCondition(),
+
+  ),
+
+  GetPage(
+    name: bottomNav,
+    page: () => const BottomNavController(),
 
   ),
 ];
