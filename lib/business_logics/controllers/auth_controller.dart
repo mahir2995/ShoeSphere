@@ -50,7 +50,7 @@ class AuthController extends GetxController {
   }
 
   login(email, password, context) async {
-    //AppStyle.progressDialog(context);
+    AppStyles().progressDialog(context);
     try {
       final credential = await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: email, password: password);
@@ -67,11 +67,11 @@ class AuthController extends GetxController {
               'uid': data!['uid'],
               'email': data['email'],
               'name': data['name']
-            };
+             };
             box.write('user', user);
             print(user);
             Get.back();
-            //Get.offAndToNamed(bottomNav);
+            Get.offAndToNamed(bottomNav);
             Get.showSnackbar(AppStyles().successSnacBar('Login successfull'));
           } else {
             Get.showSnackbar(AppStyles()
