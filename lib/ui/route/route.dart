@@ -1,5 +1,6 @@
 
 import 'package:get/get.dart';
+import 'package:shoesphere/business_logics/bindings/auth_binding.dart';
 import 'package:shoesphere/ui/views/auth/bottom_nav_controller.dart';
 import 'package:shoesphere/ui/views/auth/forget_password.dart';
 import 'package:shoesphere/ui/views/auth/login.dart';
@@ -41,6 +42,7 @@ List<GetPage> getPages = [
   GetPage(
     name: registration,
     page: () =>  Registration(),
+    binding: AuthBinding()
 
   ),
   GetPage(

@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:shoesphere/business_logics/controllers/auth_controller.dart';
 import 'package:shoesphere/const/app_colors.dart';
 import 'package:shoesphere/ui/responsive/size_config.dart';
 import 'package:shoesphere/ui/route/route.dart';
@@ -80,18 +81,20 @@ class Registration extends StatelessWidget {
                             value: _value.value,
                             onChanged: (val) {
                               _value.value = val!;
-                            }),),
-
+                            }),
+                      ),
                       Text.rich(TextSpan(children: [
                         TextSpan(
                             text: 'I accept all the Terms & Condition',
-                            style: TextStyle(color: AppColors.vampireBlackColor)),
+                            style:
+                                TextStyle(color: AppColors.vampireBlackColor)),
                         TextSpan(
                             recognizer: TapGestureRecognizer()
                               ..onTap = () => Get.toNamed(terms),
                             text: '  ',
                             style: TextStyle(
-                                color: Colors.black, fontWeight: FontWeight.w600)),
+                                color: Colors.black,
+                                fontWeight: FontWeight.w600)),
                       ]))
                     ],
                   ),
@@ -104,7 +107,13 @@ class Registration extends StatelessWidget {
                       child: customButton(
                         'Sign Up',
                         () {
-                          if (_formKey.currentState!.validate() && _value.value==true) {
+                          if (_formKey.currentState!.validate() &&
+                              _value.value == true) {
+                            Get.find<AuthController>().signUp(
+                                _nameControler.text,
+                                _emailControler.text.trim(),
+                                _passwordControler.text.trim(),
+                                context);
                             print('Succcess');
                           } else {
                             print('Failed');
