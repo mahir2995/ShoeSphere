@@ -5,7 +5,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-//import 'package:get_storage/get_storage.dart';
 import 'package:shoesphere/const/app_strings.dart';
 import 'package:shoesphere/ui/theme/app_theme.dart';
 import 'firebase_options.dart';

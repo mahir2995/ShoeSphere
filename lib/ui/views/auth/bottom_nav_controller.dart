@@ -32,7 +32,7 @@ class BottomNavController extends StatelessWidget {
           bottomBarItem(Icons.home_filled, 'Home'),
           bottomBarItem(Icons.favorite_outline, 'Favourite'),
           bottomBarItem(Icons.shopping_bag_outlined, 'Cart'),
-          bottomBarItem(Icons.person_outline, 'Person'),
+          bottomBarItem(Icons.person_outline, 'Profile'),
         ],
       ),
       body: _pages[_currentIndex.value],
