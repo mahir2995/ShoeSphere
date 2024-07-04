@@ -4,6 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:shoesphere/ui/route/route.dart';
 import 'package:shoesphere/ui/style/app_styles.dart';
 
 class AuthController extends GetxController {
@@ -29,7 +30,7 @@ class AuthController extends GetxController {
         box.write('user', user);
         print(box.read('user'));
         Get.back();
-        //Get.offAndToNamed(bottomNav);
+        Get.offAndToNamed(bottomNav);
         Get.showSnackbar(AppStyles().successSnacBar('SignUp successfull'));
       }
     } on FirebaseAuthException catch (e) {
