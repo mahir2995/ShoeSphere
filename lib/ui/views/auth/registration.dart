@@ -114,7 +114,7 @@ class Registration extends StatelessWidget {
                                 _emailControler.text.trim(),
                                 _passwordControler.text.trim(),
                                 context);
-                            print('Succcess');
+                            //print('Succcess');
                           } else {
                             print('Failed');
                           }

@@ -1,6 +1,7 @@
 
 import 'package:get/get.dart';
 import 'package:shoesphere/business_logics/bindings/auth_binding.dart';
+import 'package:shoesphere/business_logics/bindings/splash_binding.dart';
 import 'package:shoesphere/ui/views/auth/bottom_nav_controller.dart';
 import 'package:shoesphere/ui/views/auth/forget_password.dart';
 import 'package:shoesphere/ui/views/auth/login.dart';
@@ -26,7 +27,8 @@ List<GetPage> getPages = [
   ),
   GetPage(
     name: splash,
-    page: () => const Splash(),
+    page: () => Splash(),
+    binding: SplashBinding(),
 
   ),
   GetPage(
@@ -37,6 +39,7 @@ List<GetPage> getPages = [
   GetPage(
     name: login,
     page: () =>  Login(),
+      binding: AuthBinding()
 
   ),
   GetPage(
@@ -48,6 +51,7 @@ List<GetPage> getPages = [
   GetPage(
     name: forgetPass,
     page: () =>  ForgetPassword(),
+      binding: AuthBinding()
 
   ),
 

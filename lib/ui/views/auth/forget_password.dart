@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:shoesphere/business_logics/controllers/auth_controller.dart';
 import 'package:shoesphere/ui/responsive/size_config.dart';
 import 'package:shoesphere/ui/widgets/custom_button.dart';
 import 'package:shoesphere/ui/widgets/custom_text_field.dart';
@@ -63,7 +65,11 @@ class ForgetPassword extends StatelessWidget {
                             'Continue',
                                 () {
                               if (_formKey.currentState!.validate()) {
-                                print('Succcess');
+
+                                Get.find<AuthController>().forgetPassword(
+                                    _emailControler.text.trim(),
+
+                                    context);
                               } else {
                                 print('Failed');
                               }
