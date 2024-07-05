@@ -32,7 +32,7 @@ class FirestoreDB {
         .update(user.toJson())
         .then((value) => Get.snackbar('Success', 'Updated Successfully.'));
   }
-/*
+
   Future<List<Product>> getProducts() async {
     final snapshot = await _firebaseFirestore.collection('products').get();
     final productData =
@@ -40,7 +40,7 @@ class FirestoreDB {
     return productData;
   }
 
-  Future<void> addToFavourite(UserFavourite favourite) async {
+  /*Future<void> addToFavourite(UserFavourite favourite) async {
     await _firebaseFirestore
         .collection('favourite')
         .doc(FirebaseAuth.instance.currentUser!.email)
