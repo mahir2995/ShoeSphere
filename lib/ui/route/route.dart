@@ -28,7 +28,7 @@ List<GetPage> getPages = [
   GetPage(
     name: splash,
     page: () => Splash(),
-    binding: SplashBinding(),
+    //binding: SplashBinding(),
 
   ),
   GetPage(
