@@ -9,12 +9,22 @@ import 'package:shoesphere/ui/responsive/size_config.dart';
 import 'package:shoesphere/ui/route/route.dart';
 import 'package:shoesphere/ui/widgets/custom_button.dart';
 import 'package:shoesphere/ui/widgets/custom_text_field.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Login extends StatelessWidget {
   Login({super.key});
-  TextEditingController _emailControler = TextEditingController();
-  TextEditingController _passwordControler = TextEditingController();
+  TextEditingController _emailController = TextEditingController();
+  TextEditingController _passwordController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+
+  void _launchURL(String url) async {
+    final Uri uri = Uri.parse(url);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,74 +41,75 @@ class Login extends StatelessWidget {
                 autovalidateMode: AutovalidateMode.always,
                 child: Column(
                   children: [
-                    SizedBox(
-                      height: 30,
-                    ),
+                    SizedBox(height: 30),
                     Image.asset(
                       'assets/icons/logo.png',
                       width: 40.w,
                     ),
-                    SizedBox(
-                      height: 10,
-                    ),
+                    SizedBox(height: 10),
                     Text(
                       'Log In',
-                      style:
-                      TextStyle(fontSize: 18.sp, fontWeight: FontWeight.w600),
+                      style: TextStyle(fontSize: 18.sp, fontWeight: FontWeight.w600),
                     ),
-                    SizedBox(
-                      height: 20,
+                    SizedBox(height: 20),
+                    customFormField(
+                      TextInputType.emailAddress,
+                      _emailController,
+                      context,
+                      'Email',
+                          (val) {
+                        if (val.isEmpty) {
+                          return 'this field can\'t be empty';
+                        }
+                        if (!val.contains(RegExp(r'\@'))) {
+                          return 'enter a valid email address';
+                        }
+                      },
+                      prefixIcon: Icons.email_outlined,
                     ),
-                    customFormField(TextInputType.emailAddress,_emailControler,
-                        context, 'Email', (val) {
-                          if (val.isEmpty) {
-                            return 'this field can\'t be empty';
-                          }
-                          if (!val.contains(RegExp(r'\@'))) {
-                            return 'enter a valid email address';
-                          }
-                        }, prefixIcon: Icons.email_outlined),
-                    customFormField(TextInputType.text, _passwordControler,
-                        context, 'Password', (val) {
-                          if (val.isEmpty) {
-                            return 'this field can\'t be empty';
-                          }
-                        },
-                        prefixIcon: Icons.remove_red_eye_outlined,
-                        obscureText: true),
+                    customFormField(
+                      TextInputType.text,
+                      _passwordController,
+                      context,
+                      'Password',
+                          (val) {
+                        if (val.isEmpty) {
+                          return 'this field can\'t be empty';
+                        }
+                      },
+                      prefixIcon: Icons.remove_red_eye_outlined,
+                      obscureText: true,
+                    ),
                     Align(
                       alignment: Alignment.centerRight,
                       child: InkWell(
                         onTap: () => Get.toNamed(forgetPass),
                         child: Text(
                           'Forget Password',
-                          style: TextStyle(
-                              fontSize: 14.sp, fontWeight: FontWeight.w500),
+                          style: TextStyle(fontSize: 14.sp, fontWeight: FontWeight.w500),
                         ),
                       ),
                     ),
+                    SizedBox(height: 30),
                     SizedBox(
-                      height: 30,
+                      width: 200,
+                      height: 45,
+                      child: customButton(
+                        'Log in',
+                            () {
+                          if (_formKey.currentState!.validate()) {
+                            Get.find<AuthController>().login(
+                              _emailController.text.trim(),
+                              _passwordController.text.trim(),
+                              context,
+                            );
+                          } else {
+                            print('Failed');
+                          }
+                        },
+                      ),
                     ),
-                    SizedBox(
-                        width: 200,
-                        height: 45,
-                        child: customButton(
-                          'Log in',
-                              () {
-                            if (_formKey.currentState!.validate()) {
-                              Get.find<AuthController>().login(
-                                  _emailControler.text.trim(),
-                                  _passwordControler.text.trim(),
-                                  context);
-                            } else {
-                              print('Failed');
-                            }
-                          },
-                        )),
-                    SizedBox(
-                      height: 20,//
-                    ),
+                    SizedBox(height: 20),
                     Row(
                       children: [
                         Expanded(
@@ -116,37 +127,37 @@ class Login extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(
-                      height: 20,
-                    ),
+                    SizedBox(height: 20),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         InkWell(
                           borderRadius: BorderRadius.circular(50),
-                          onTap: () {},
+                          onTap: () {
+                            _launchURL('https://www.facebook.com');
+                          },
                           child: Ink(
                             height: 50,
                             width: 50,
                             decoration: BoxDecoration(
-                                color: AppColors.whiteColor,
-                                shape: BoxShape.circle,
-                                boxShadow: [
-                                  BoxShadow(
-                                      color: AppColors.grayColor.withOpacity(0.5),
-                                      spreadRadius: 5,
-                                      blurRadius: 7,
-                                      offset: Offset(0, 3))
-                                ]),
+                              color: AppColors.whiteColor,
+                              shape: BoxShape.circle,
+                              boxShadow: [
+                                BoxShadow(
+                                  color: AppColors.grayColor.withOpacity(0.5),
+                                  spreadRadius: 5,
+                                  blurRadius: 7,
+                                  offset: Offset(0, 3),
+                                ),
+                              ],
+                            ),
                             child: Padding(
                               padding: const EdgeInsets.all(10),
                               child: Image.asset('assets/icons/facebook.png'),
                             ),
                           ),
                         ),
-                        SizedBox(
-                          width: 20,
-                        ),
+                        SizedBox(width: 20),
                         InkWell(
                           borderRadius: BorderRadius.circular(50),
                           onTap: () {},
@@ -154,44 +165,52 @@ class Login extends StatelessWidget {
                             height: 50,
                             width: 50,
                             decoration: BoxDecoration(
-                                color: AppColors.whiteColor,
-                                shape: BoxShape.circle,
-                                boxShadow: [
-                                  BoxShadow(
-                                      color: AppColors.grayColor.withOpacity(0.5),
-                                      spreadRadius: 5,
-                                      blurRadius: 7,
-                                      offset: Offset(0, 3))
-                                ]),
+                              color: AppColors.whiteColor,
+                              shape: BoxShape.circle,
+                              boxShadow: [
+                                BoxShadow(
+                                  color: AppColors.grayColor.withOpacity(0.5),
+                                  spreadRadius: 5,
+                                  blurRadius: 7,
+                                  offset: Offset(0, 3),
+                                ),
+                              ],
+                            ),
                             child: Padding(
                               padding: const EdgeInsets.all(10),
                               child: Image.asset('assets/icons/search.png'),
                             ),
                           ),
-                        )
+                        ),
                       ],
                     ),
-                    SizedBox(
-                      height: 30,
+                    SizedBox(height: 30),
+                    Text.rich(
+                      TextSpan(
+                        children: [
+                          TextSpan(
+                            text: 'Don\'t have an account?',
+                            style: TextStyle(color: AppColors.grayColor),
+                          ),
+                          TextSpan(
+                            recognizer: TapGestureRecognizer()
+                              ..onTap = () => Get.toNamed(registration),
+                            text: ' Sign Up',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
-                    Text.rich(TextSpan(children: [
-                      TextSpan(
-                          text: 'Don\'t have an account?',
-                          style: TextStyle(color: AppColors.grayColor)),
-                      TextSpan(
-                          recognizer: TapGestureRecognizer()
-                            ..onTap = () => Get.toNamed(registration),
-                          text: ' Sign Up',
-                          style: TextStyle(
-                              color: Colors.black, fontWeight: FontWeight.w600)),
-                    ]))
                   ],
                 ),
               ),
             ),
           ),
-        )),
-
+        ),
+      ),
     );
   }
 }

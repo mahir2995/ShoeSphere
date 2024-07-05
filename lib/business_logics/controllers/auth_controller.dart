@@ -104,8 +104,14 @@ class AuthController extends GetxController {
       Get.showSnackbar(AppStyles().failedSnacBar('something is wrong.'));
     }
   }
-
-  logout() async {
-    _auth.signOut();
+  Future<void> logout() async {
+    try {
+      _auth.signOut();
+    } catch (e) {
+      print('Error logging out: $e');
+    }
   }
+
+
+
 }

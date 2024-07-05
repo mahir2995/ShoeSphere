@@ -1,13 +1,11 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-//import 'package:ecommerce/model/cart.dart';
-
-//import 'package:ecommerce/model/user_favourite.dart';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:shoesphere/model/cart.dart';
 import 'package:shoesphere/model/products.dart';
+import 'package:shoesphere/model/user_favourite.dart';
 import 'package:shoesphere/model/user_profile.dart';
 
 class FirestoreDB {
@@ -32,7 +30,8 @@ class FirestoreDB {
         .update(user.toJson())
         .then((value) => Get.snackbar('Success', 'Updated Successfully.'));
   }
-/*
+
+
   Future<List<Product>> getProducts() async {
     final snapshot = await _firebaseFirestore.collection('products').get();
     final productData =
@@ -136,6 +135,6 @@ class FirestoreDB {
         .then((value) => Get.rawSnackbar(message: 'Order placed successfully.'));
   }
 
-*/
+
 
 }

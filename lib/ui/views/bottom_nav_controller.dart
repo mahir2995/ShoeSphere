@@ -5,8 +5,9 @@ import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import 'package:shoesphere/const/app_colors.dart';
 import 'package:shoesphere/ui/views/nav_pages/cart.dart';
 import 'package:shoesphere/ui/views/nav_pages/favourite.dart';
+import 'package:shoesphere/ui/views/nav_pages/home.dart';
 import 'package:shoesphere/ui/views/nav_pages/profile.dart';
-import '../nav_pages/home.dart';
+
 
 class BottomNavController extends StatelessWidget {
   BottomNavController({super.key});

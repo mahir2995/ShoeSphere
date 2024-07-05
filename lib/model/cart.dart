@@ -1,20 +1,22 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class Product {
+class UserCart {
+  String? documentId;
   final String brand;
   final String category;
   final String description;
   final double discountPercentage;
   final int id;
-  final List images ;
+  final List images;
   final int price;
   final double rating;
   final int stock;
   final String thumbnail;
   final String title;
 
-  const Product(
-      {required this.brand,
+  UserCart(
+      {this.documentId,
+        required this.brand,
         required this.category,
         required this.description,
         required this.discountPercentage,
@@ -26,10 +28,12 @@ class Product {
         required this.thumbnail,
         required this.title});
 
-  factory Product.fromSnapshot(
+  factory UserCart.fromSnapshot(
       DocumentSnapshot<Map<String, dynamic>> snapshot) {
     final data = snapshot.data()!;
-    return Product(
+
+    return UserCart(
+        documentId: snapshot.id,
         brand: data['brand'],
         category: data['category'],
         description: data['description'],
@@ -41,5 +45,20 @@ class Product {
         stock: data['stock'],
         thumbnail: data['thumbnail'],
         title: data['title']);
+  }
+  toJson() {
+    return {
+      'brand': brand,
+      'category': category,
+      'description': description,
+      'discountPercentage': discountPercentage,
+      'id': id,
+      'images': images,
+      'price': price,
+      'rating': rating.toDouble(),
+      'stock': stock,
+      'thumbnail': thumbnail,
+      'title': title,
+    };
   }
 }
