@@ -7,6 +7,7 @@ import 'package:shoesphere/model/cart.dart';
 import 'package:shoesphere/model/products.dart';
 import 'package:shoesphere/model/user_favourite.dart';
 import 'package:shoesphere/model/user_profile.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class FirestoreDB {
 
@@ -30,14 +31,64 @@ class FirestoreDB {
         .update(user.toJson())
         .then((value) => Get.snackbar('Success', 'Updated Successfully.'));
   }
+  Future<List<Product>> getProducts() async {
+    try {
+      final snapshot = await _firebaseFirestore.collection('products').get();
+      if (snapshot.docs.isEmpty) {
+        print('No products found in Firestore');
+      } else {
+        print('Fetched products: ${snapshot.docs.length}');
+      }
+
+      final productData = snapshot.docs.map((doc) {
+        try {
+          return Product.fromSnapshot(doc);
+        } catch (e) {
+          print('Error parsing product from document ${doc.id}: $e');
+          print('Document data: ${doc.data()}');
+          return null;
+        }
+      }).whereType<Product>().toList();
+
+      print('Product data length: ${productData.length}');
+      return productData;
+    } catch (e) {
+      print('Error fetching products: $e');
+      return [];
+    }
+  }
+/*
+  Future<List<Product>> getProducts() async {
+    try {
+      final snapshot = await _firebaseFirestore.collection('products').get();
+      if (snapshot.docs.isEmpty) {
+        print('No products found in Firestore');
+      } else {
+        print('Fetched products: ${snapshot.docs.length}');
+      }
+      final productData = snapshot.docs.map((e) => Product.fromSnapshot(e)).toList();
+      print('Product data length: ${productData.length}');
+      return productData;
+    } catch (e) {
+      print('Error fetching products: $e');
+      return [];
+    }
+  }
+
+ */
 
 
+
+
+  /*
   Future<List<Product>> getProducts() async {
     final snapshot = await _firebaseFirestore.collection('products').get();
     final productData =
     snapshot.docs.map((e) => Product.fromSnapshot(e)).toList();
     return productData;
   }
+
+   */
 
   Future<void> addToFavourite(UserFavourite favourite) async {
     await _firebaseFirestore
