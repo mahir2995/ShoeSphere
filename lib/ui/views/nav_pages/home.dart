@@ -81,7 +81,7 @@ class Home extends StatelessWidget {
                               style: TextStyle(fontSize: 13),
                             ),
                             Text(
-                              '\৳ ${product.price.toString()}',
+                              '\$ ${product.price.toString()}',
                               style: TextStyle(fontWeight: FontWeight.w600),
                             ),
                           ],
