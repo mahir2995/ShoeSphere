@@ -1,556 +1,576 @@
 [
-    {
-      "id": 1,
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/2/1.jpg",
-        "https://i.dummyjson.com/data/products/2/2.jpg",
-        "https://i.dummyjson.com/data/products/2/3.jpg",
-        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
-      "rating": 4.09,
-      "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
-      "discountPercentage": 17.91,
-      "rating": 4.3,
-      "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/4/1.jpg",
-        "https://i.dummyjson.com/data/products/4/2.jpg",
-        "https://i.dummyjson.com/data/products/4/3.jpg",
-        "https://i.dummyjson.com/data/products/4/4.jpg",
-        "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-      "price": 499,
-      "discountPercentage": 10.58,
-      "rating": 4.09,
-      "stock": 32,
-      "brand": "Huawei",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/5/1.jpg",
-        "https://i.dummyjson.com/data/products/5/2.jpg",
-        "https://i.dummyjson.com/data/products/5/3.jpg"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "discountPercentage": 11.02,
-      "rating": 4.57,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-      "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/4.jpg"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-      "price": 1499,
-      "discountPercentage": 4.15,
-      "rating": 4.25,
-      "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/7/1.jpg",
-        "https://i.dummyjson.com/data/products/7/2.jpg",
-        "https://i.dummyjson.com/data/products/7/3.jpg",
-        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Microsoft Surface Laptop 4",
-      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-      "price": 1499,
-      "discountPercentage": 10.23,
-      "rating": 4.43,
-      "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-      "price": 1099,
-      "discountPercentage": 11.83,
-      "rating": 4.54,
-      "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/9/1.jpg",
-        "https://i.dummyjson.com/data/products/9/2.png",
-        "https://i.dummyjson.com/data/products/9/3.png",
-        "https://i.dummyjson.com/data/products/9/4.jpg",
-        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "price": 1099,
-      "discountPercentage": 6.18,
-      "rating": 4.43,
-      "stock": 89,
-      "brand": "HP Pavilion",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
-      "images": [
-        "https://i.dummyjson.com/data/products/10/1.jpg",
-        "https://i.dummyjson.com/data/products/10/2.jpg",
-        "https://i.dummyjson.com/data/products/10/3.jpg",
-        "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
-      ]
-    },
-    {
-      "id": 11,
-      "title": "perfume Oil",
-      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-      "price": 13,
-      "discountPercentage": 8.4,
-      "rating": 4.26,
-      "stock": 65,
-      "brand": "Impression of Acqua Di Gio",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/11/1.jpg",
-        "https://i.dummyjson.com/data/products/11/2.jpg",
-        "https://i.dummyjson.com/data/products/11/3.jpg",
-        "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Brown Perfume",
-      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
-      "price": 40,
-      "discountPercentage": 15.66,
-      "rating": 4,
-      "stock": 52,
-      "brand": "Royal_Mirage",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/12/1.jpg",
-        "https://i.dummyjson.com/data/products/12/2.jpg",
-        "https://i.dummyjson.com/data/products/12/3.png",
-        "https://i.dummyjson.com/data/products/12/4.jpg",
-        "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Fog Scent Xpressio Perfume",
-      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
-      "price": 13,
-      "discountPercentage": 8.14,
-      "rating": 4.59,
-      "stock": 61,
-      "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
-      "images": [
-        "https://i.dummyjson.com/data/products/13/1.jpg",
-        "https://i.dummyjson.com/data/products/13/2.png",
-        "https://i.dummyjson.com/data/products/13/3.jpg",
-        "https://i.dummyjson.com/data/products/13/4.jpg",
-        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
-      ]
-    },
-    {
-      "id": 14,
-      "title": "Non-Alcoholic Concentrated Perfume Oil",
-      "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
-      "price": 120,
-      "discountPercentage": 15.6,
-      "rating": 4.21,
-      "stock": 114,
-      "brand": "Al Munakh",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/14/1.jpg",
-        "https://i.dummyjson.com/data/products/14/2.jpg",
-        "https://i.dummyjson.com/data/products/14/3.jpg",
-        "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 15,
-      "title": "Eau De Perfume Spray",
-      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
-      "price": 30,
-      "discountPercentage": 10.99,
-      "rating": 4.7,
-      "stock": 105,
-      "brand": "Lord - Al-Rehab",
-      "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/15/1.jpg",
-        "https://i.dummyjson.com/data/products/15/2.jpg",
-        "https://i.dummyjson.com/data/products/15/3.jpg",
-        "https://i.dummyjson.com/data/products/15/4.jpg",
-        "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 16,
-      "title": "Hyaluronic Acid Serum",
-      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
-      "price": 19,
-      "discountPercentage": 13.31,
-      "rating": 4.83,
-      "stock": 110,
-      "brand": "L'Oreal Paris",
-      "category": "skincare",
-      "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/16/1.png",
-        "https://i.dummyjson.com/data/products/16/2.webp",
-        "https://i.dummyjson.com/data/products/16/3.jpg",
-        "https://i.dummyjson.com/data/products/16/4.jpg",
-        "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 17,
-      "title": "Tree Oil 30ml",
-      "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
-      "price": 12,
-      "discountPercentage": 4.09,
-      "rating": 4.52,
-      "stock": 78,
-      "brand": "Hemani Tea",
-      "category": "skincare",
-      "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/17/1.jpg",
-        "https://i.dummyjson.com/data/products/17/2.jpg",
-        "https://i.dummyjson.com/data/products/17/3.jpg",
-        "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 18,
-      "title": "Oil Free Moisturizer 100ml",
-      "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
-      "price": 40,
-      "discountPercentage": 13.1,
-      "rating": 4.56,
-      "stock": 88,
-      "brand": "Dermive",
-      "category": "skincare",
-      "thumbnail": "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/18/1.jpg",
-        "https://i.dummyjson.com/data/products/18/2.jpg",
-        "https://i.dummyjson.com/data/products/18/3.jpg",
-        "https://i.dummyjson.com/data/products/18/4.jpg",
-        "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Skin Beauty Serum.",
-      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
-      "price": 46,
-      "discountPercentage": 10.68,
-      "rating": 4.42,
-      "stock": 54,
-      "brand": "ROREC White Rice",
-      "category": "skincare",
-      "thumbnail": "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/19/1.jpg",
-        "https://i.dummyjson.com/data/products/19/2.jpg",
-        "https://i.dummyjson.com/data/products/19/3.png",
-        "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Freckle Treatment Cream- 15gm",
-      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
-      "price": 70,
-      "discountPercentage": 16.99,
-      "rating": 4.06,
-      "stock": 140,
-      "brand": "Fair & Clear",
-      "category": "skincare",
-      "thumbnail": "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/20/1.jpg",
-        "https://i.dummyjson.com/data/products/20/2.jpg",
-        "https://i.dummyjson.com/data/products/20/3.jpg",
-        "https://i.dummyjson.com/data/products/20/4.jpg",
-        "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 21,
-      "title": "- Daal Masoor 500 grams",
-      "description": "Fine quality Branded Product Keep in a cool and dry place",
-      "price": 20,
-      "discountPercentage": 4.81,
-      "rating": 4.44,
-      "stock": 133,
-      "brand": "Saaf & Khaas",
-      "category": "groceries",
-      "thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.png",
-      "images": [
-        "https://i.dummyjson.com/data/products/21/1.png",
-        "https://i.dummyjson.com/data/products/21/2.jpg",
-        "https://i.dummyjson.com/data/products/21/3.jpg"
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Elbow Macaroni - 400 gm",
-      "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
-      "price": 14,
-      "discountPercentage": 15.58,
-      "rating": 4.57,
-      "stock": 146,
-      "brand": "Bake Parlor Big",
-      "category": "groceries",
-      "thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/22/1.jpg",
-        "https://i.dummyjson.com/data/products/22/2.jpg",
-        "https://i.dummyjson.com/data/products/22/3.jpg"
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Orange Essence Food Flavou",
-      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
-      "price": 14,
-      "discountPercentage": 8.04,
-      "rating": 4.85,
-      "stock": 26,
-      "brand": "Baking Food Items",
-      "category": "groceries",
-      "thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/23/1.jpg",
-        "https://i.dummyjson.com/data/products/23/2.jpg",
-        "https://i.dummyjson.com/data/products/23/3.jpg",
-        "https://i.dummyjson.com/data/products/23/4.jpg",
-        "https://i.dummyjson.com/data/products/23/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 24,
-      "title": "cereals muesli fruit nuts",
-      "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
-      "price": 46,
-      "discountPercentage": 16.8,
-      "rating": 4.94,
-      "stock": 113,
-      "brand": "fauji",
-      "category": "groceries",
-      "thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/24/1.jpg",
-        "https://i.dummyjson.com/data/products/24/2.jpg",
-        "https://i.dummyjson.com/data/products/24/3.jpg",
-        "https://i.dummyjson.com/data/products/24/4.jpg",
-        "https://i.dummyjson.com/data/products/24/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Gulab Powder 50 Gram",
-      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
-      "price": 70,
-      "discountPercentage": 13.58,
-      "rating": 4.87,
-      "stock": 47,
-      "brand": "Dry Rose",
-      "category": "groceries",
-      "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/25/1.png",
-        "https://i.dummyjson.com/data/products/25/2.jpg",
-        "https://i.dummyjson.com/data/products/25/3.png",
-        "https://i.dummyjson.com/data/products/25/4.jpg",
-        "https://i.dummyjson.com/data/products/25/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 26,
-      "title": "Plant Hanger For Home",
-      "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
-      "price": 41,
-      "discountPercentage": 17.86,
-      "rating": 4.08,
-      "stock": 131,
-      "brand": "Boho Decor",
-      "category": "home-decoration",
-      "thumbnail": "https://i.dummyjson.com/data/products/26/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/26/1.jpg",
-        "https://i.dummyjson.com/data/products/26/2.jpg",
-        "https://i.dummyjson.com/data/products/26/3.jpg",
-        "https://i.dummyjson.com/data/products/26/4.jpg",
-        "https://i.dummyjson.com/data/products/26/5.jpg",
-        "https://i.dummyjson.com/data/products/26/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 27,
-      "title": "Flying Wooden Bird",
-      "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
-      "price": 51,
-      "discountPercentage": 15.58,
-      "rating": 4.41,
-      "stock": 17,
-      "brand": "Flying Wooden",
-      "category": "home-decoration",
-      "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
-      "images": [
-        "https://i.dummyjson.com/data/products/27/1.jpg",
-        "https://i.dummyjson.com/data/products/27/2.jpg",
-        "https://i.dummyjson.com/data/products/27/3.jpg",
-        "https://i.dummyjson.com/data/products/27/4.jpg",
-        "https://i.dummyjson.com/data/products/27/thumbnail.webp"
-      ]
-    },
-    {
-      "id": 28,
-      "title": "3D Embellishment Art Lamp",
-      "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
-      "price": 20,
-      "discountPercentage": 16.49,
-      "rating": 4.82,
-      "stock": 54,
-      "brand": "LED Lights",
-      "category": "home-decoration",
-      "thumbnail": "https://i.dummyjson.com/data/products/28/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/28/1.jpg",
-        "https://i.dummyjson.com/data/products/28/2.jpg",
-        "https://i.dummyjson.com/data/products/28/3.png",
-        "https://i.dummyjson.com/data/products/28/4.jpg",
-        "https://i.dummyjson.com/data/products/28/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": 29,
-      "title": "Handcraft Chinese style",
-      "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
-      "price": 60,
-      "discountPercentage": 15.34,
-      "rating": 4.44,
-      "stock": 7,
-      "brand": "luxury palace",
-      "category": "home-decoration",
-      "thumbnail": "https://i.dummyjson.com/data/products/29/thumbnail.webp",
-      "images": [
-        "https://i.dummyjson.com/data/products/29/1.jpg",
-        "https://i.dummyjson.com/data/products/29/2.jpg",
-        "https://i.dummyjson.com/data/products/29/3.webp",
-        "https://i.dummyjson.com/data/products/29/4.webp",
-        "https://i.dummyjson.com/data/products/29/thumbnail.webp"
-      ]
-    },
-    {
-      "id": 30,
-      "title": "Key Holder",
-      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
-      "price": 30,
-      "discountPercentage": 2.92,
-      "rating": 4.92,
-      "stock": 54,
-      "brand": "Golden",
-      "category": "home-decoration",
-      "thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/30/1.jpg",
-        "https://i.dummyjson.com/data/products/30/2.jpg",
-        "https://i.dummyjson.com/data/products/30/3.jpg",
-        "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
-      ]
-    }
-  
-  
-  ]
+  {
+    "id": 1,
+    "title": "iPhone 15 Pro Max",
+    "description": "An apple mobile which is nothing like apple",
+    "price": 197000,
+    "discountPercentage": 12.96,
+    "rating": 4.69,
+    "stock": 94,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro-max/blue-titanium/iphone-15-pro-max-blue-titanium-official-500x500.jpg",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro-max/blue-titanium/iphone-15-pro-max-blue-titanium-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro-max/blue-titanium/iphone-15-pro-max-blue-titanium-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro-max/blue-titanium/iphone-15-pro-max-blue-titanium-04-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro-max/natural-titanium/iphone-15-pro-max-natural-titanium-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mobile/apple/iphone-15-pro-max/natural-titanium/iphone-15-pro-max-natural-titanium-03-500x500.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Lenovo Tab M10",
+    "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+    "price": 899,
+    "discountPercentage": 17.94,
+    "rating": 4.44,
+    "stock": 34,
+    "brand": "Lenovo",
+    "category": "TAB",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/tablet-pc/lenovo/tab-m10-gen-3/tab-m10-gen-3-10-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/tablet-pc/lenovo/tab-m10-gen-3/tab-m10-gen-3-01-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet-pc/lenovo/tab-m10-gen-3/tab-m10-gen-3-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet-pc/lenovo/tab-m10-gen-3/tab-m10-gen-3-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet-pc/lenovo/tab-m10-gen-3/tab-m10-gen-3-04-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet-pc/lenovo/tab-m10-gen-3/tab-m10-gen-3-05-500x500.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bata AI-Designed Lace-Up Premium Dress Shoe",
+    "description": "Special or separate promotional products, such as Floatz offered at 599 taka, are exempted from the ongoing communicated flat or up to discounts.",
+    "price": 1249,
+    "discountPercentage": 15.46,
+    "rating": 4.09,
+    "stock": 36,
+    "brand": "bata",
+    "category": "Shoe",
+    "thumbnail": "https://www.batabd.com/cdn/shop/files/8284908_2_300x.jpg?v=1717414974",
+    "images": [
+      "https://www.batabd.com/cdn/shop/files/8284908_1_compact.jpg?v=1717414974",
+      "https://www.batabd.com/cdn/shop/files/8284908_2_compact.jpg?v=1717414974",
+      "https://www.batabd.com/cdn/shop/files/8284908_3_compact.jpg?v=1717414974",
+      "https://www.batabd.com/cdn/shop/files/8284908_2_compact.jpg?v=1717414974",
+      "https://www.batabd.com/cdn/shop/files/8284908_1_compact.jpg?v=1717414974"
+
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lenovo Yoga 7 2",
+    "description": "lenovo F19 is officially announced on April 2021.",
+    "price": 280,
+    "discountPercentage": 17.91,
+    "rating": 4.3,
+    "stock": 123,
+    "brand": "Lenovo",
+    "category": "smartphon",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-7-2-in-1-14ahp9/yoga-7-2-in-1-14ahp9-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-7-2-in-1-14ahp9/yoga-7-2-in-1-14ahp9-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-7-2-in-1-14ahp9/yoga-7-2-in-1-14ahp9-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-7-2-in-1-14ahp9/yoga-7-2-in-1-14ahp9-05-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-7-2-in-1-14ahp9/yoga-7-2-in-1-14ahp9-06-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-7-2-in-1-14ahp9/yoga-7-2-in-1-14ahp9-04-500x500.webp"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mens Cotton Jacket",
+    "description": "great outerwear jackets for Spring/Autumn/Winter",
+    "price": 499,
+    "discountPercentage": 10.58,
+    "rating": 4.09,
+    "stock": 32,
+    "brand": "gucci",
+    "category": "jacket",
+    "thumbnail": "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1683891904/739810_ZANZ7_4348_001_100_0000_Light.jpg",
+    "images": [
+      "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1700242326/762521_ZAPUR_4440_001_100_0000_Light.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1714754703/793549_Z8BU3_2206_001_100_0000_Light.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1714488408/795697_ZARAG_1088_001_100_0000_Light.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1715651255/800889_ZARV5_4330_001_100_0000_Light.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1715652012/798040_XJGTU_6318_001_100_0000_Light.jpg"
+
+    ]
+  },
+  {
+    "id": 6,
+    "title": "MacBook Pro",
+    "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+    "price": 1749,
+    "discountPercentage": 11.02,
+    "rating": 4.57,
+    "stock": 83,
+    "brand": "Apple",
+    "category": "laptops",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/space-gray/13-inch/macbook-air-13-3-inch-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/space-gray/13-inch/macbook-air-2-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/MGN73/macbook-mgn73Zp-a-1-500x500.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air-m2-chip/macbook-air-m2-chip-space-gray-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air-m2-chip/macbook-air-m2-chip-space-gray-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air-m2-chip/macbook-air-2022-m2-chip-01-500x500.webp"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Dell Inspiron 3530 Core i7",
+    "description": "Dell Inspiron 3530 Core i7 (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+    "price": 1499,
+    "discountPercentage": 4.15,
+    "rating": 4.25,
+    "stock": 50,
+    "brand": "DELL",
+    "category": "laptops",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-3530/inspiron-3530-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-3530/inspiron-3530-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/msi/stealth-16-studio-a13vg-407bd/stealth-16-studio-a13vg-407bd-pure-white-01-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/msi/stealth-16-studio-a13vg-407bd/stealth-16-studio-a13vg-407bd-pure-white-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/msi/stealth-16-studio-a13vg-407bd/stealth-16-studio-a13vg-407bd-pure-white-03-500x500.webp"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "BAGGY DENIM PANT",
+    "description": "Style a Capture ideas on the vibrant touch",
+    "price": 1499,
+    "discountPercentage": 10.23,
+    "rating": 4.43,
+    "stock": 68,
+    "brand": "gucci",
+    "category": "cloths",
+    "thumbnail": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1715651230/798228_XDCYY_4100_001_100_0000_Light-Baggy-denim-pant.jpg",
+    "images": [
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1715651232/798228_XDCYY_4100_003_100_0000_Light-Baggy-denim-pant.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1715651233/798228_XDCYY_4100_004_100_0000_Light-Baggy-denim-pant.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1715651234/798228_XDCYY_4100_005_100_0000_Light-Baggy-denim-pant.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1715651236/798228_XDCYY_4100_012_100_0000_Light-Baggy-denim-pant.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1686236426/681289_XDB8G_4759_001_100_0000_Light.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "GG BLACK BACKPACK",
+    "description": " 1 Year Warranty",
+    "price": 1099,
+    "discountPercentage": 11.83,
+    "rating": 4.54,
+    "stock": 96,
+    "brand": "gucci",
+    "category": "cloths",
+    "thumbnail": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1659392172/495563_K9R8X_1071_001_100_0000_Light-GG-Black-backpack.jpg",
+    "images": [
+      "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1659392175/495563_K9R8X_1071_002_100_0000_Light-GG-Black-backpack.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1503921610/495563_K9R8X_1071_004_100_0000_Light-GG-Black-backpack.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1503921610/495563_K9R8X_1071_007_100_0000_Light-GG-Black-backpack.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1659392180/495563_K9R8X_1071_009_100_0000_Light-GG-Black-backpack.jpg",
+      "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1693412132/495563_K9R8X_1071_013_100_0000_Light-GG-Black-backpack.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "North Star PARK 86 ",
+    "description": "Casual Lace-Up Sneaker For Men",
+    "price": 1099,
+    "discountPercentage": 6.18,
+    "rating": 4.43,
+    "stock": 89,
+    "brand": "bata",
+    "category": "snikers",
+    "thumbnail": "https://www.batabd.com/cdn/shop/files/2_829815b0-5f3b-439a-8375-3a6df6784883_compact.jpg?v=1718186476",
+    "images": [
+      "https://www.batabd.com/cdn/shop/files/1_62f03068-4a2a-4427-aee7-a31b7834e0e0_1024x1024.jpg?v=1718186476",
+      "https://www.batabd.com/cdn/shop/files/3_f6428d25-d5f3-4832-9782-219db47c057b_compact.jpg?v=1718186476",
+      "https://www.batabd.com/cdn/shop/files/4_0c025d5e-920a-4314-becb-6152687882b9_compact.jpg?v=1718186476",
+      "https://www.batabd.com/cdn/shop/files/5_f08da38a-70b9-40ab-9819-084ef8a2a623_compact.jpg?v=1718186476",
+      "https://www.batabd.com/cdn/shop/files/2_829815b0-5f3b-439a-8375-3a6df6784883_compact.jpg?v=1718186476"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "North Star COURT 86",
+    "description": "Casual Lace-Up Sneaker For Men",
+    "price": 13,
+    "discountPercentage": 8.4,
+    "rating": 4.26,
+    "stock": 65,
+    "brand": "Impression of Acqua Di Gio",
+    "category": "snikers",
+    "thumbnail": "https://www.batabd.com/cdn/shop/files/1_6811c076-a5c7-444e-b132-8911b0633b91_1024x1024.jpg?v=1712248013",
+    "images": [
+      "https://www.batabd.com/cdn/shop/files/2_94c3de0c-34a8-4f62-8e4f-3bd88e3ab318_compact.jpg?v=1712248012",
+      "https://www.batabd.com/cdn/shop/files/3_b2e50c49-500a-445f-987c-5bbbc844d90b_compact.jpg?v=1712248014",
+      "https://www.batabd.com/cdn/shop/files/4_1a9fbadf-0562-447d-9a32-29344b575207_compact.jpg?v=1712248012",
+      "https://www.batabd.com/cdn/shop/files/5_e430617c-f66d-4ee6-9fe6-c18681bba58a_compact.jpg?v=1712248013",
+      "https://www.batabd.com/cdn/shop/files/1_6811c076-a5c7-444e-b132-8911b0633b91_compact.jpg?v=1712248013"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Bata Red Label ZURICH Evening Heels",
+    "description": "These Bata Red Label slingback block heel sandals feature a block heel, slingback straps & gold trims as an embellishment lending a stylish & playful edge to the.",
+    "price": 40,
+    "discountPercentage": 15.66,
+    "rating": 4,
+    "stock": 52,
+    "brand": "bata",
+    "category": "sandle",
+    "thumbnail": "https://www.batabd.com/cdn/shop/products/2_2c60ccb2-13cc-4bce-819d-99c8249b0d8a_1024x1024.jpg?v=1681700055",
+    "images": [
+      "https://www.batabd.com/cdn/shop/products/1_8f6eba28-a496-4498-bc2e-b34118ae04b8_compact.jpg?v=1681700055",
+      "https://www.batabd.com/cdn/shop/products/3_bccbe5a9-487a-4d00-9f7b-086ea6e3a10d_compact.jpg?v=1681700055",
+      "https://www.batabd.com/cdn/shop/products/4_18bedb0e-17f9-432c-a5c6-1cf80f865559_compact.jpg?v=1681700055",
+      "https://www.batabd.com/cdn/shop/products/3_bccbe5a9-487a-4d00-9f7b-086ea6e3a10d_compact.jpg?v=1681700055",
+      "https://www.batabd.com/cdn/shop/products/2_2c60ccb2-13cc-4bce-819d-99c8249b0d8a_compact.jpg?v=1681700055"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Power Purple-Black Sporty Sneaker For Women",
+    "description": "Special or separate promotional products, such as Floatz offered at 599 taka, are exempted from the ongoing communicated flat or up to discounts",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "bata",
+    "category": "snikers",
+    "thumbnail": "https://www.batabd.com/cdn/shop/products/DSC_6379_f4377f21-977c-4291-bbba-81f90a9b781a_1024x1024.jpg?v=1580636605",
+    "images": [
+      "https://www.batabd.com/cdn/shop/products/DSC_6379_f4377f21-977c-4291-bbba-81f90a9b781a_compact.jpg?v=1580636605",
+      "https://www.batabd.com/cdn/shop/products/DSC_6381_compact.jpg?v=1580636605",
+      "https://www.batabd.com/cdn/shop/products/DSC_6375_compact.jpg?v=1580636605",
+      "https://www.batabd.com/cdn/shop/products/DSC_6377_2113801d-aa82-4b49-833b-07add0d3f3cd_compact.jpg?v=1580636605",
+      "https://www.batabd.com/cdn/shop/products/DSC_6375_compact.jpg?v=1580636605"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "BubbleGummers UPBEAT Sneaker For Kids",
+    "description": "Special or separate promotional products, such as Floatz offered at 599 taka, are exempted from the ongoing communicated flat or up to discounts",
+    "price": 120,
+    "discountPercentage": 15.6,
+    "rating": 4.21,
+    "stock": 114,
+    "brand": "bata",
+    "category": "child shoe",
+    "thumbnail": "https://www.batabd.com/cdn/shop/products/1_4985f1aa-ac00-4ece-aeb2-d928fde5a1b4_1024x1024.jpg?v=1678611305",
+    "images": [
+      "https://www.batabd.com/cdn/shop/products/1_4985f1aa-ac00-4ece-aeb2-d928fde5a1b4_compact.jpg?v=1678611305",
+      "https://www.batabd.com/cdn/shop/products/3_bd007d85-38bb-4b48-86cb-d68d572dd21a_compact.jpg?v=1678611304",
+      "https://www.batabd.com/cdn/shop/products/4_b7d22447-a3eb-4deb-b92d-c9a3cc0a808f_compact.jpg?v=1678611304",
+      "https://www.batabd.com/cdn/shop/products/5_a4722165-52ee-4747-b05f-3634a845ffb5_compact.jpg?v=1678611305",
+      "https://www.batabd.com/cdn/shop/products/2_e2af518c-579d-4bf6-89b3-8e6c227b3c22_compact.jpg?v=1678611305"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "North Star BACKPACK",
+    "description": "Special or separate promotional products, such as Floatz offered at 599 taka, are exempted from the ongoing communicated flat or up to discounts.",
+    "price": 30,
+    "discountPercentage": 10.99,
+    "rating": 4.7,
+    "stock": 105,
+    "brand": "bata",
+    "category": "Bagpack",
+    "thumbnail": "https://www.batabd.com/cdn/shop/products/1_7e2bc9a8-4a8f-40d3-8143-6f2d14382bcf_1024x1024.jpg?v=1634114362",
+    "images": [
+      "https://www.batabd.com/cdn/shop/files/1_377d3d72-ad50-488f-baaf-dbd1425da523_300x.jpg?v=1701941244",
+      "https://www.batabd.com/cdn/shop/files/1_ba75cb0b-3cf7-40de-a4c1-96f2e0f38dff_1024x1024.jpg?v=1701937395",
+      "https://www.batabd.com/cdn/shop/files/1_8ed89efa-c9b6-4279-8cac-ee44fab719df_300x.jpg?v=1687332169",
+      "https://www.batabd.com/cdn/shop/files/1_a3853b74-c864-4ecd-bfef-2bd490e690cc_1024x1024.jpg?v=1687330791",
+      "https://www.batabd.com/cdn/shop/files/1_75f44167-18cf-4611-8bb3-85defeae5e53_300x.jpg?v=1701938610"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Hyaluronic Acid Serum",
+    "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+    "price": 19,
+    "discountPercentage": 13.31,
+    "rating": 4.83,
+    "stock": 110,
+    "brand": "L'Oreal Paris",
+    "category": "skincare",
+    "thumbnail": "https://s.alicdn.com/@sc04/kf/H0eb787b365f94b26952173988568dce7s.jpg_300x300.jpg",
+    "images": [
+      "https://s.alicdn.com/@sc04/kf/He98b4770b2844d47afe0461d2966d0ddn.jpg_300x300.jpg",
+      "https://s.alicdn.com/@sc04/kf/Heb320a11029641cfa36f04179b3c0d93I.jpg_300x300.jpg",
+      "https://s.alicdn.com/@sc04/kf/Had884c969789467886803fc8a1c131346.jpg_300x300.jpg",
+      "https://s.alicdn.com/@sc04/kf/H7f8eaa47aa774a0ebadfcad5b71f3474S/10-B3-Vitamin-Serum-skin-care-Lightening.jpg_350x350.jpg?hasNWGrade=1",
+      "https://s.alicdn.com/@sc04/kf/Hada8d75ed41241bbbaaa98c87340a92dc/1-Hyaluronic-Acid-Facial-Serum-Nano-Smooth.jpg_350x350.jpg?hasNWGrade=1"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Tree Oil 30ml",
+    "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+    "price": 12,
+    "discountPercentage": 4.09,
+    "rating": 4.52,
+    "stock": 78,
+    "brand": "Hemani Tea",
+    "category": "skincare",
+    "thumbnail": "https://s.alicdn.com/@sc04/kf/H1fac8b0550e24540a770e3c5f8f48210v.jpg_300x300.jpg",
+    "images": [
+      "https://sc01.alicdn.com/kf/Hfc95b9330b9b45b0a59810ba57e91085B.jpg",
+      "https://sc01.alicdn.com/kf/H8f094456777f4a6db950d5c163d6671ae.jpg",
+      "https://sc01.alicdn.com/kf/H241e54399d8e4959b43f681a698472b4N.jpg",
+      "https://sc01.alicdn.com/kf/H9103c7cc7fb3491b821f8e2c0a1a3d78D.png",
+      "https://sc01.alicdn.com/kf/H1fac8b0550e24540a770e3c5f8f48210v.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Oil Free Moisturizer 100ml",
+    "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+    "price": 40,
+    "discountPercentage": 13.1,
+    "rating": 4.56,
+    "stock": 88,
+    "brand": "Dermive",
+    "category": "skincare",
+    "thumbnail": "https://sc04.alicdn.com/kf/H7f01fcdc1fb442e0841b0dfaddf407cat/230097701/H7f01fcdc1fb442e0841b0dfaddf407cat.png",
+    "images": [
+      "https://sc04.alicdn.com/kf/H938b0469d08e4876a56013f3316e3f80y/230097701/H938b0469d08e4876a56013f3316e3f80y.png",
+      "https://sc04.alicdn.com/kf/H039ad246e8cb4ccc8ac7f72c04b211bbi/230097701/H039ad246e8cb4ccc8ac7f72c04b211bbi.png",
+      "https://sc04.alicdn.com/kf/H0add296ce9b04097abfa3b69edaff0ef6/230097701/H0add296ce9b04097abfa3b69edaff0ef6.png",
+      "https://sc04.alicdn.com/kf/H31cc916c19bf4d389b79f61e4567eff8s/230097701/H31cc916c19bf4d389b79f61e4567eff8s.png",
+      "https://sc04.alicdn.com/kf/H7f01fcdc1fb442e0841b0dfaddf407cat/230097701/H7f01fcdc1fb442e0841b0dfaddf407cat.png"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Skin Beauty Serum.",
+    "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
+    "price": 46,
+    "discountPercentage": 10.68,
+    "rating": 4.42,
+    "stock": 54,
+    "brand": "ROREC White Rice",
+    "category": "skincare",
+    "thumbnail": "https://s.alicdn.com/@sc04/kf/Hb72584866ad84df9b9bc39af8a7ac7919.jpg_300x300.jpg",
+    "images": [
+      "https://s.alicdn.com/@sc04/kf/H697ee964d61c45f18f426bb80e61d45dW.jpg_300x300.jpg",
+      "https://s.alicdn.com/@sc04/kf/Hb72584866ad84df9b9bc39af8a7ac7919.jpg_300x300.jpg",
+      "https://s.alicdn.com/@sc04/kf/Hbe9e98615bb14b2dbf9340e5e12318608.jpg_300x300.jpg",
+      "https://s.alicdn.com/@sc04/kf/H697ee964d61c45f18f426bb80e61d45dW.jpg_300x300.jpg",
+      "https://s.alicdn.com/@sc04/kf/Hbe9e98615bb14b2dbf9340e5e12318608.jpg_300x300.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Razer Enki Quartz Gaming Chair",
+    "description": "The Razer Enki Quartz Gaming Chair has Dual-Textured, Eco-Friendly Synthetic Leather, Optimized Cushion Density, Reactive Seat Tilt, Built-In Lumbar Arch, and Up to 152° Recline. This Razer gaming chair was created with all-day comfort in mind. By establishing a comfortable sweet spot with proper weight distribution.",
+    "price": 70,
+    "discountPercentage": 16.99,
+    "rating": 4.06,
+    "stock": 140,
+    "brand": "Razer",
+    "category": "Gaming Chair",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/gaming-chair/razer/enki-quartz/enki-quartz-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/gaming-chair/razer/enki-quartz/enki-quartz-02-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/gaming-chair/razer/enki-quartz/enki-quartz-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/gaming-chair/razer/enki-quartz/enki-quartz-04-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/gaming-chair/razer/enki-quartz/enki-quartz-03-500x500.webp",
+      "https://www.startech.com.bd/image/cache/catalog/gaming-chair/razer/enki-quartz/enki-quartz-04-500x500.webp"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "A4tech Bloody S510R Brown Switch RGB Wired Mechanical Gaming Keyboard",
+    "description": "A4tech's Bloody S510R To give gamers with a unique gaming experience, the Brown Switch RGB Wired Mechanical Gaming Keyboard has been meticulously tuned in terms of actuation point and force.",
+    "price": 20,
+    "discountPercentage": 4.81,
+    "rating": 4.44,
+    "stock": 133,
+    "brand": "A4tech ",
+    "category": "Keyboard",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/keyboard/a4-tech/bloody-s510r/bloody-s510r-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/a4-tech/bloody-s510r/bloody-s510r-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/a4-tech/bloody-s510r/bloody-s510r-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/a4-tech/bloody-s510r/bloody-s510r-04-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/a4-tech/bloody-s510r/bloody-s510r-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/keyboard/a4-tech/bloody-s510r/bloody-s510r-04-74x74.webp"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Canon 200D II",
+    "description": "EOS 200D II is Canon's lightest DSLR with a Vari-angle Touch Screen LCD. Packed into its petite body is Canon's 24.1-megapixels APS-C CMOS sensor, DIGIC 8 processor and a bunch of features that would make snapping your everyday life seamlessly easier.",
+    "price": 14,
+    "discountPercentage": 15.58,
+    "rating": 4.57,
+    "stock": 146,
+    "brand": "Canon",
+    "category": "Camera",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/200d-ii/200d-ii-500x500.jpg",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/200d-ii/200d-ii-1-74x74.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/200d-ii/200d-ii-2-74x74.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/200d-ii/200d-ii-3-74x74.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/200d-ii/200d-ii-1-74x74.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/200d-ii/200d-ii-2-74x74.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Apple iPad ",
+    "description": "Apple iPad 10.2 inch comes with 9th Gen Wiâ€ Fi in Space Gray color. It comes with 64GB capacity. This Apple iPad is Easy to use, Versatile, Work, play, create, learn, stay connected, and more.",
+    "price": 14,
+    "discountPercentage": 8.04,
+    "rating": 4.85,
+    "stock": 26,
+    "brand": "Apple",
+    "category": "Pad",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/tablet/apple/ipad-9th-gen/ipad-9th-gen-space-gray-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/tablet/apple/ipad-9th-gen/ipad-9th-gen-space-gray-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet/apple/ipad-9th-gen/ipad-9th-gen-space-gray-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet/apple/ipad-9th-gen/ipad-9th-gen-space-gray-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet/apple/ipad-9th-gen/ipad-9th-gen-space-gray-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/tablet/apple/ipad-9th-gen/ipad-9th-gen-space-gray-03-74x74.webp"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "HP P24h G5 23.8",
+    "description": "The HP P24h G5 23.8 Monitor will keep you relaxed while you do routine productivity chores. This reasonably priced Full HD monitor with 1920 x 1080 resolution and a space-conscious design that lets you make the most of your desktop space has a modern, utilitarian design.",
+    "price": 46,
+    "discountPercentage": 16.8,
+    "rating": 4.94,
+    "stock": 113,
+    "brand": "HP",
+    "category": "Monitor",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/p24h-g5/p24h-g5-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/p24h-g5/p24h-g5-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/p24h-g5/p24h-g5-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/p24h-g5/p24h-g5-04-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/p24h-g5/p24h-g5-05-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/p24h-g5/p24h-g5-06-74x74.webp"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "DJI Mini 3 Pro Drone",
+    "description": "The DJI Mini 3 Pro Drone comes with new Features like a 1-inch CMOS sensor that can shoot 4K/60fps videos and 48MP RAW photos",
+    "price": 70,
+    "discountPercentage": 13.58,
+    "rating": 4.87,
+    "stock": 47,
+    "brand": "DJI",
+    "category": "Drone",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/drones/dji/mini-3-pro/mini-3-pro-09-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/drones/dji/mini-3-pro/mini-3-pro-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/drones/dji/mini-3-pro/mini-3-pro-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/drones/dji/mini-3-pro/mini-3-pro-04-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/drones/dji/mini-3-pro/mini-3-pro-07-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/drones/dji/mini-3-pro/mini-3-pro-08-74x74.webp"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Plant Hanger For Home",
+    "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
+    "price": 41,
+    "discountPercentage": 17.86,
+    "rating": 4.08,
+    "stock": 131,
+    "brand": "Boho Decor",
+    "category": "home-decoration",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/r90-plus-naraka/r90-plus-naraka-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/r90-plus-naraka/r90-plus-naraka-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/r90-plus-naraka/r90-plus-naraka-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/r90-plus-naraka/r90-plus-naraka-04-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/r90-plus-naraka/r90-plus-naraka-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/mouse/a4tech/r90-plus-naraka/r90-plus-naraka-03-74x74.webp"
+
+    ]
+  },
+  {
+    "id": 27,
+    "title": "A4TECH R90 Plus Naraka 2.4G Wireless Gaming Mouse",
+    "description": "The A4TECH R90 Plus Naraka 2.4G Wireless Gaming Mouse redefines your gaming experience with unparalleled freedom and precision.",
+    "price": 51,
+    "discountPercentage": 15.58,
+    "rating": 4.41,
+    "stock": 17,
+    "brand": "A4TECH",
+    "category": "Mouse",
+    "thumbnail": "https://i.dummyjson.com/data/products/27/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/27/1.jpg",
+      "https://i.dummyjson.com/data/products/27/2.jpg",
+      "https://i.dummyjson.com/data/products/27/3.jpg",
+      "https://i.dummyjson.com/data/products/27/4.jpg",
+      "https://i.dummyjson.com/data/products/27/thumbnail.webp"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Monarch Mystery Mini Box X5 RGB Gaming Case",
+    "description": "The Monarch Mystery Mini Box X5 RGB Gaming Case is a compact and stylish chassis designed for gaming enthusiasts and system builders who prioritize both aesthetics and performance.",
+    "price": 20,
+    "discountPercentage": 16.49,
+    "rating": 4.82,
+    "stock": 54,
+    "brand": "Monarch",
+    "category": "Gaming Case",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/casing/monarch/mystery-box-x5/mystery-box-x5-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/casing/monarch/mystery-box-x5/mystery-box-x5-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/casing/monarch/mystery-box-x5/mystery-box-x5-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/casing/monarch/mystery-box-x5/mystery-box-x5-04-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/casing/monarch/mystery-box-x5/mystery-box-x5-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/casing/monarch/mystery-box-x5/mystery-box-x5-03-74x74.webp"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Fantech Go Tune WH06 Wireless Headphone",
+    "description": "The Fantech Go Tune WH06 Wireless Headphone offers a seamless audio experience with its advanced features and ergonomic design.",
+    "price": 60,
+    "discountPercentage": 15.34,
+    "rating": 4.44,
+    "stock": 7,
+    "brand": "Fantech",
+    "category": "Headphone",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/go-tune-wh06/go-tune-wh06-01-500x500.webp",
+    "images": [
+      "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/go-tune-wh06/go-tune-wh06-04-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/go-tune-wh06/go-tune-wh06-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/go-tune-wh06/go-tune-wh06-03-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/go-tune-wh06/go-tune-wh06-02-74x74.webp",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/go-tune-wh06/go-tune-wh06-03-74x74.webp"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Ambassador BACKPACK",
+    "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+    "price": 30,
+    "discountPercentage": 2.92,
+    "rating": 4.92,
+    "stock": 54,
+    "brand": "bata",
+    "category": "Bagpack",
+    "thumbnail": "https://www.batabd.com/cdn/shop/products/1_16ad4056-2bd1-4813-8373-ff228ba37362_1024x1024.jpg?v=1634114975",
+    "images": [
+      "https://www.batabd.com/cdn/shop/files/1_99121c54-d1fb-45c9-b3cc-19c3efea963b_300x.jpg?v=1712118703",
+      "https://www.batabd.com/cdn/shop/products/1_df4ba22c-5ed4-4f46-b5fb-845c1a113166_300x.jpg?v=1634114597",
+      "https://www.batabd.com/cdn/shop/products/1_c040fb4e-823c-4057-822d-fe42120c0b06_300x.jpg?v=1634109622",
+      "https://www.batabd.com/cdn/shop/files/1_39d24332-a69c-4e97-ac40-2dbd06cf1eb8_300x.jpg?v=1712119536",
+      "https://www.batabd.com/cdn/shop/files/1_b483ed5e-8904-4a73-8f3e-7c98414f808d_300x.jpg?v=1701946614"
+    ]
+  }
+
+
+]
