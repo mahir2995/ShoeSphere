@@ -90,4 +90,5 @@ class Product {
       title: data['title'] ?? 'No title available',
     );
   }
+
 }
