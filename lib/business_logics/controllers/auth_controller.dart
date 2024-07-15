@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-//import 'package:ecommerce/ui/route/route.dart';
-//import 'package:ecommerce/ui/style/app_styles.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:shoesphere/model/user_profile.dart';
 import 'package:shoesphere/ui/route/route.dart';
 import 'package:shoesphere/ui/style/app_styles.dart';
 
@@ -21,7 +21,7 @@ class AuthController extends GetxController {
 
       if (credential.user!.uid.isNotEmpty) {
         CollectionReference collectionReference =
-            FirebaseFirestore.instance.collection('users');
+        FirebaseFirestore.instance.collection('users');
         collectionReference
             .doc(email)
             .set({'uid': credential.user!.uid, 'email': email, 'name': name});
@@ -67,7 +67,7 @@ class AuthController extends GetxController {
               'uid': data!['uid'],
               'email': data['email'],
               'name': data['name']
-             };
+            };
             box.write('user', user);
             print(user);
             Get.back();
@@ -104,14 +104,9 @@ class AuthController extends GetxController {
       Get.showSnackbar(AppStyles().failedSnacBar('something is wrong.'));
     }
   }
-  Future<void> logout() async {
-    try {
-      _auth.signOut();
-    } catch (e) {
-      print('Error logging out: $e');
-    }
+
+  logout() async {
+    _auth.signOut();
+
   }
-
-
-
 }

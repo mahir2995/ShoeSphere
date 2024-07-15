@@ -59,7 +59,7 @@ class Profile extends StatelessWidget {
                     customButton(
                       'Logout',
                           () async {
-                        await Get.find<AuthController>().logout();
+                        //await Get.find<AuthController>().logout();
                         Get.offAllNamed(login);
                       },
                     ),
