@@ -463,3 +463,27 @@ class Login extends StatelessWidget {
 //only google
 
 import 'package:flutter/gestures.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:shoesphere/business_logics/controllers/auth_controller.dart';
+import 'package:shoesphere/const/app_colors.dart';
+import 'package:shoesphere/ui/responsive/size_config.dart';
+import 'package:shoesphere/ui/route/route.dart';
+import 'package:shoesphere/ui/widgets/custom_button.dart';
+import 'package:shoesphere/ui/widgets/custom_text_field.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+class Login extends StatelessWidget {
+  Login({Key?key}) : super(key: key);
+
+  final TextEditingController_emailController = TextEditingController();
+  final TextEditingController_passwordController = TextEditingController();
+  final _formKey = GlobalKey<FormState>();
+
+  void _handleGoggleLogin()async
+  {
+    Get.find<AuthController>().signInWithGoogle();
+  }
+
+}
