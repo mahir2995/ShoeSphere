@@ -266,7 +266,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shoesphere/business_logics/controllers/cart_controller.dart';
@@ -554,3 +553,4 @@ class _DetailsScreenState extends State<DetailsScreen> {
     );
   }
 }
+
