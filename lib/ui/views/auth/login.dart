@@ -598,29 +598,29 @@ class Login extends StatelessWidget {
                       ),
                     ],
                   ),
-                SizedBox(height:20),
-                  Center(
-                    child:InkWell(
-                      borderRadius:BorderRadius.circuler(50),
-                      onTap: _handleGoogleLogin,
-                      child: Ink(
-                      height:50,
-                      width: 50,
-                      decoration: BoxDecoration(
-                    color:AppColors.whiteColor,
-                    shape:BoxShape.circle,
-                    boxShadow: [
-                      BoxShadow(
-                      color: AppColors.grayColor.withOpacity(0.5),
-                      spreadRadius: 5,
-                      blurRadius:7,
-                      offset: Offset(0,3),
-                      ),
-                    ],
-                ),
-                child:padding(
-                  padding: const EdgeInsets.all(10),
-                  child: Image.asset('assets/icons/search.png'),
+                    SizedBox(height:20),
+                    Center(
+                      child:InkWell(
+                        borderRadius:BorderRadius.circuler(50),
+                        onTap: _handleGoogleLogin,
+                        child: Ink(
+                          height:50,
+                          width: 50,
+                          decoration: BoxDecoration(
+                            color:AppColors.whiteColor,
+                            shape:BoxShape.circle,
+                            boxShadow: [
+                              BoxShadow(
+                                color: AppColors.grayColor.withOpacity(0.5),
+                                spreadRadius: 5,
+                                blurRadius:7,
+                                offset: Offset(0,3),
+                              ),
+                            ],
+                          ),
+                          child:padding(
+                            padding: const EdgeInsets.all(10),
+                            child: Image.asset('assets/icons/search.png'),
               ),
             ),
           ),
