@@ -219,7 +219,7 @@ class Login extends StatelessWidget {
  */
 
 
-/*
+
  //perfect code with fb and google
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -457,8 +457,8 @@ class Login extends StatelessWidget {
   }
 }
 
- */
 
+/*
 //only google
 
 import 'package:flutter/gestures.dart';
@@ -655,5 +655,5 @@ class Login extends StatelessWidget {
 
 
 
-
+*/
 
