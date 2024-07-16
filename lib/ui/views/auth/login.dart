@@ -625,21 +625,21 @@ class Login extends StatelessWidget {
             ),
           ),
         ),
-          SizedBox(height: 30),
-            Text.rich(
-            TextSpan(
-            children: [
-            TextSpan(
-            text: 'Don\'t have an account?',
-            style: TextStyle(color: AppColors.grayColor),
-            ),
-            TextSpan(
-            recognizer: TapGestureRecognizer()
-            ..onTap = () => Get.toNamed(registration),
-            text: ' Sign Up',
-            style: TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.w600,
+                    SizedBox(height: 30),
+                    Text.rich(
+                      TextSpan(
+                        children: [
+                          TextSpan(
+                            text: 'Don\'t have an account?',
+                            style: TextStyle(color: AppColors.grayColor),
+                          ),
+                          TextSpan(
+                            recognizer: TapGestureRecognizer()
+                              ..onTap = () => Get.toNamed(registration),
+                            text: ' Sign Up',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontWeight: FontWeight.w600,
             ),
             ),
             ],
